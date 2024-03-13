@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMICalculator.MVVM.Views.StartView"
+             Title="Home">
+    <VerticalStackLayout>
+        <Label 
+            Text="BMI Calculator"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="Select Units"
+            FontSize="Title"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button 
+            Text="US Customary (inches/pounds)"
+            Margin="10"
+            Clicked="Button_Clicked" />
+        <Button 
+            Text="Metric (cm/kg)"
+            Margin="10"
+            Clicked="Button_Clicked1" />
+    </VerticalStackLayout>
+    
+</ContentPage>
